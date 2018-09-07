@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: "굴림"
+}
+
+
+header h1 a {
+	vertical-align: middle;
+	text-decoration: none;
+	color: black;
+	float: left;
+	position: relative;
+	top: 2%;
+	position: relative;
+	top: 30px;
+	left: 20px;
+}
+
+header h1 a:hover {
+	color: red;
+}
+
+header h1 a:visited {
+	color: black;
+}
+
+header h1 a:active {
+	color: red;
+}
+
+header img {
+	float: left;
+}
+
+body {
+	background-color: #f3f1e9;
+}
+
+nav {
+	width: 900px;
+	position: absolute;
+	top:110px;
+
+	list-style: none;
+	text-align: center;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	padding: 10px 0;
+}
+
+nav ul li {
+	display: inline;
+	text-decoration: uppercase;
+	padding: 0 10px;
+	letter-spacing: 10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+aside#left {
+	float: left;
+	width: 175px;
+	position: absolute;
+	top:180px;
+	float: left;
+}
+
+#left h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+#left ul {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #fff;
+	list-style: none;
+	text-indent: 15px;
+}
+
+#left ul li {
+	background: #3f3f3f;
+	line-height: 28px;
+	border-bottom: 1px solid #333;
+}
+
+#left ul li a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+
+#left ul li a:hover {
+	background: #d40203;
+}
+
+#left ul li#active {
+	background: #d40203;
+}
+
+#main {
+	position: absolute;
+	top:180px;
+	left:195px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #464646;
+	overflow: hidden;
+	float: left;
+	width: 430px;
+	
+}
+#article1 {
+	display: inline;
+}
+#product1 { width:100px; float: left;}
+#product2 { width:100px; float: right;}
+aside#right {
+	position: absolute;
+	top:180px;
+	left:645px;
+	padding: 0px;
+	margin-left: 10px;
+	width: 200px;
+	float: left;
+}
+
+#shopcart {
+	margin-bottom: 20px;
+}
+
+#login {
+	margin-top: 40px;
+}
+
+footer {
+	position: absolute;
+	top:500px;
+	width: 100%;
+	height: 50px;
+	clear: both;
+	background-image: url(images/footer_bg.gif);
+	background-position: top left;
+	background-repeat: repeat-x;
+}
